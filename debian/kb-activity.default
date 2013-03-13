@@ -1,0 +1,10 @@
+# Defaults for kb-activity initscript
+# sourced by /etc/init.d/kb-activity
+# installed at /etc/default/kb-activity by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_ARGS="-d -R -k /usr/bin/set-touch-pad.sh"

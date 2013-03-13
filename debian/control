@@ -1,0 +1,24 @@
+Source: kb-activity
+Section: x11
+Priority: optional
+Maintainer: Levin Du <zslevin@gmail.com>
+Build-Depends:
+ debhelper (>= 8),
+ libx11-dev,
+ libxext-dev,
+ libxi-dev (>= 2:1.2.0),
+ x11proto-core-dev,
+ xserver-xorg-dev (>= 2:1.11.3-0ubuntu1),
+ x11proto-input-dev (>= 2.1.99.5),
+ libxtst-dev
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/kb-activity.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/kb-activity.git;a=summary
+
+Package: kb-activity
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Keyboard activity monitor for X.Org server
+ This package contains a keyboard activity monitor, which can be used
+ to control touch pad or track point.

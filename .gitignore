@@ -1,0 +1,7 @@
+/kb-activity
+/debian/files
+/debian/kb-activity/
+/debian/*.debhelper
+/debian/*.log
+/debian/*.substvars
+
